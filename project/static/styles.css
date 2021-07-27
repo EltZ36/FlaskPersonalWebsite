@@ -1,0 +1,127 @@
+header{
+  padding: 10px 10px 15px 10px;
+  margin: 2px;
+}
+
+img{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 200px;
+  justify-content: space-between;
+  image-rendering: auto;
+}
+
+/*
+.mobileIcon{
+  cursor: pointer;
+}*/
+
+nav{
+ display: inline-flex;
+ text-align: left;
+ position: fixed;
+ float:right;
+ top: 0;
+ width: 100%;
+}
+
+li{
+  list-style-type: none;
+  margin: 10px;
+  font-size: 125%;
+}
+
+li a{
+  text-decoration: none;
+  color: #48484d;
+  background-color: #2ae2e8;
+  padding: 10px 10px 10px 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #48484d;
+  background-color: #2ae2e8;
+  padding: 10px 10px 10px 10px;
+  transition-duration: 0.5s;
+ }
+
+a:link{
+  background-color:#2ae2e8;
+}
+a:visited{
+  background-color: #e1951e;
+}
+
+a:hover{
+ background-color: #e8592a;
+}
+
+
+body {
+  text-align: center;
+  font-size: 20px;
+}
+
+.Photo img{
+  margin: auto;
+  border: 2px inset #E1951E;
+}
+
+main{
+ margin:3px;
+ padding: 0 10px 0 10px;
+ }
+
+.Hackathon_Projects a{
+  margin: 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.About, .Projects, .Hackathon_Projects, .Experience{
+  padding: 10px 20px 0px 20px;
+}
+
+.Projects p{
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+}
+
+.Experience p{
+  padding:  10px 10px 10px 10px;
+}
+
+.Experience a{
+  padding: 10px 10px 10px 10px;
+}
+
+.About_title, .Hackathon_title, .Project_titles, .Experience_title{
+  color:#000000;
+}
+
+h1{
+  color: #000000;
+}
+
+html, body{
+  font-family: 'Oxygen', sans-serif;
+  margin: 20px;
+  color: #48484d;
+  scroll-behavior: smooth;
+}
+
+/*
+@media screen and (max-width: 700px){
+  .navi{
+    display:none;
+  }
+
+  .navi.show{
+     display: flex;
+  }
+
+  .mobileIcon{
+    display: block;
+  }
+}
+*/
